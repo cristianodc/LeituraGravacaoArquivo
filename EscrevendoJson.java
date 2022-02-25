@@ -58,7 +58,7 @@ public class EscrevendoJson {
 		
 		for(Usuario u : Liusuarios)
 			{
-			System.err.println(u);
+			System.err.println(" Testando "+u);
 			}
 	}
 }

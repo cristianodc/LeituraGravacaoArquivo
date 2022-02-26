@@ -1,6 +1,9 @@
 package curso.LeituraGravArq;
 
+<<<<<<< HEAD
 import java.io.FileReader;
+=======
+>>>>>>> fd537b2893f16bde2c96bb9facb8b530fae34455
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -8,9 +11,12 @@ import java.util.List;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+<<<<<<< HEAD
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
+=======
+>>>>>>> fd537b2893f16bde2c96bb9facb8b530fae34455
 
 public class EscrevendoJson {
 
@@ -41,6 +47,7 @@ public class EscrevendoJson {
 		fileWriter.write(JsonUser);
 		fileWriter.flush();
 		fileWriter.close();
+<<<<<<< HEAD
 	//	System.out.println(JsonUser);
 		
 		/*************************************************Lendo o arquivo json*************************************************/
@@ -60,5 +67,8 @@ public class EscrevendoJson {
 			{
 			System.err.println(" Testando "+u);
 			}
+=======
+		System.out.println(JsonUser);
+>>>>>>> fd537b2893f16bde2c96bb9facb8b530fae34455
 	}
 }
